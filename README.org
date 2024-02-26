@@ -1,0 +1,13 @@
+#+title: Readme
+* TODO combine the two "challenge" images into a list
+:PROPERTIES:
+:ID:       173e0692-38a6-4c7f-8dfb-fa5e41f5a17b
+:END:
++ for now
+  - A-000 :: challenge 000 from [[file:progchal1.jpg][progchal1.jpg]]
+  - B-000 :: challenge 000 from [[file:progchal2.jpg][progchal2.jpg]]
+  - C-000 :: challenge 000 from [[id:d84cb62b-f572-4f8b-8b39-f91798d8429f][custom (mine)]]
+* my custom projects (C-000)
+:PROPERTIES:
+:ID:       d84cb62b-f572-4f8b-8b39-f91798d8429f
+:END:

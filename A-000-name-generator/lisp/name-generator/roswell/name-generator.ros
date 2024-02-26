@@ -1,0 +1,29 @@
+#!/bin/sh
+#|-*- mode:lisp -*-|#
+#|
+exec ros -Q -- $0 "$@"
+|#
+
+#|
+ This file is a part of name-generator
+ (c) 2024 chu the pup https://dogboner.xyz (chufilthymutt@gmail.com)
+ Author: chu the pup <chufilthymutt@gmail.com>
+|#
+
+;; Use `+Q`  if you don't have Quicklisp dependencies to save startup time.
+
+(defun help ()
+  (format T "~&Usage:
+
+  name-generator [name]
+"))
+
+;; XXX: this load does not load from everywhere
+;; It doesn't work when run as a script.
+(load (truename "name-generator.asd"))
+(ql:quickload "name-generator")
+
+(defun main (&rest argv)
+  "Optional name parameter."
+  ;; CLI args parsing is done in %main.
+  (name-generator::%main argv))
