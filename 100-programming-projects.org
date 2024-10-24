@@ -1,0 +1,8 @@
+#+TITLE: 100 Programming Projects
+
+- [X] 000 :: Name Generator (personal favorite)
+- [X] 002 :: Temperature Converter
+- [ ] 001 :: Higher or Lower / Heads or Tails
+- [X] 013 :: Magic Eight-Ball
+- [X] 015 :: Reverse a string
+- [X] 020 :: BMI Calculator
